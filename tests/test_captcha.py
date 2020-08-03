@@ -3,6 +3,8 @@ import nose
 import json
 import captcha
 
+print(dir(captcha))
+print(help(captcha))
 
 def load_json_config(function):
     def test_case():
